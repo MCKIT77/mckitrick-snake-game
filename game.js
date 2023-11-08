@@ -11,7 +11,7 @@ const gameBoard = document.getElementById('game-board')
 function main(currentTime) {
     if (gameOver) {
         if (confirm('You lost. Press ok to restart.')) {
-            window.location = '/'
+            window.location = 'https://mckit77.github.io/mckitrick-snake-game/'
         }
         return
     }
